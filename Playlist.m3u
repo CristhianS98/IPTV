@@ -1,0 +1,25 @@
+#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/pe.xml"
+
+#EXTINF:-1 tvg-id="AmericaTelevision.pe" tvg-name="América Televisión" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/49/America_Television_logo_2016.png" group-title="Generalistas",América Televisión
+http://181.188.216.5:18000/play/a014/index.m3u8
+
+#EXTINF:-1 tvg-id="ATV.pe" tvg-name="ATV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_ATV_Peru.png" group-title="Generalistas",ATV (720p)
+https://alba-pe-atv-atv.stream.mediatiquestream.com/index.m3u8
+
+#EXTINF:-1 tvg-id="ATVPlus.pe" tvg-name="ATV+" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0f/Logo_ATV%2B.png" group-title="Entretenimiento",ATV+
+https://alba-pe-atv-atvmas.stream.mediatiquestream.com/index.m3u8
+
+#EXTINF:-1 tvg-id="GlobalTV.pe" tvg-name="Global TV" tvg-logo="https://i.imgur.com/pxZ91F5.png" group-title="Generalistas",Global TV
+http://181.188.216.5:18000/play/a0m5/index.m3u8
+
+#EXTINF:-1 tvg-id="LaTele.pe" tvg-name="La Tele" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3b/La_Tele_Logo.png" group-title="Entretenimiento",La Tele
+https://live-evg1.tv360.bitel.com.pe/bitel/latele/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Latina.pe" tvg-name="Latina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0a/Latina_Television_logo_2019.png" group-title="Generalistas",Latina (720p)
+https://redirector.rudo.video/hls-video/567ffde3fa319fadf3419efda25619456231dfea/latina/latina.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="LatinaClasicos.pe" tvg-name="Latina Clásicos" tvg-logo="https://i.imgur.com/mS09bn3.png" group-title="Entretenimiento",Latina Clásicos
+https://redirector.rudo.video/hls-video/plus226/latina2/latina2.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Nativa.pe" tvg-name="Nativa" tvg-logo="https://i.imgur.com/6gQ0rBQ.png" group-title="Generalistas",Nativa (720p)
+https://www.opencaster.com/resources/hls_stream/hipodromojcp2.m3u8
