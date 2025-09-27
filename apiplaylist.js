@@ -1,22 +1,24 @@
-// api/playlist.js
-import fs from 'fs';
-import path from 'path';
-
-const SECRET = process.env.PLAYLIST_TOKEN || 'SAVIPE'; // tu token
+import fs from "fs";
+import path from "path";
 
 export default function handler(req, res) {
-  const token = req.query.token;
-  if (!token || token !== SECRET) {
-    return res.status(403).send('Forbidden - invalid token');
+  // Token por header o por query (?token=SAVIPE)
+  const authHeader = req.headers.authorization;
+  const tokenQuery = req.query.token;
+
+  const validToken = process.env.API_TOKEN;
+
+  if (
+    (!authHeader || authHeader !== `Bearer ${validToken}`) &&
+    tokenQuery !== validToken
+  ) {
+    return res.status(401).json({ error: "No autorizado 🚫" });
   }
 
-  const filePath = path.resolve('.', 'playlist.m3u');
-  try {
-    const content = fs.readFileSync(filePath, 'utf8');
-    res.setHeader('Content-Type', 'audio/x-mpegurl');
-    return res.status(200).send(content);
-  } catch (err) {
-    console.error('Error reading playlist:', err);
-    return res.status(500).send('Internal Server Error');
-  }
+  // Cargar la playlist
+  const filePath = path.join(process.cwd(), "playlist.m3u");
+  const playlist = fs.readFileSync(filePath, "utf8");
+
+  res.setHeader("Content-Type", "application/vnd.apple.mpegurl");
+  res.status(200).send(playlist);
 }
