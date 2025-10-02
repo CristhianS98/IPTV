@@ -22,7 +22,7 @@ https://redirector.rudo.video/hls-video/567ffde3fa319fadf3419efda25619456231dfea
 http://200.60.124.19:29000/play/a04s/index.m3u8
 
 #EXTINF:-1 tvg-id="28" tvg-name="Discovery Turbo" tvg-logo="https://i.imgur.com/discovery-turbo-logo.png" group-title="Documentales",Discovery Turbo
-http://138.186.20.13:23200/play/a0ch
+http://181.119.85.222:8000/play/a01a/index.m3u8
 
 #EXTINF:-1 tvg-id="23" tvg-name="Discovery HD" tvg-logo="https://i.imgur.com/discovery-logo.png" group-title="Documentales",Discovery HD
 http://181.119.86.68:8000/play/c012/index.m3u8
@@ -167,6 +167,7 @@ http://181.119.85.222:8000/play/a02f/index.m3u8
 
 #EXTINF:-1 tvg-id="101" tvg-name="MOVISTAR TV" tvg-logo="https://i.imgur.com/movistar-tv-logo.png" group-title="Entretenimiento",MOVISTAR TV
 http://179.51.136.19:8000/play/a1hu/index.m3u8
+
 
 
 
