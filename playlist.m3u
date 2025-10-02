@@ -27,6 +27,10 @@ https://www.opencaster.com/resources/hls_stream/hipodromojcp2.m3u8
 #EXTINF:-1 tvg-id="PanamericanaTV.pe" tvg-name="Panamericana TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/26/Panamericana_tv_2009.png", Panamericana TV
 http://200.60.124.19:29000/play/a04s/index.m3u8
 
+#EXTINF:-1 tvg-id="28" tvg-name="Discovery Turbo" tvg-logo="https://i.imgur.com/discovery-turbo-logo.png",Discovery Turbo
+http://181.119.85.222:8000/play/a01a/index.m3u8
+
+
 
 
 
